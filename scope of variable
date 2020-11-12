@@ -1,0 +1,110 @@
+1)package main
+
+import "fmt"
+
+func main() {
+   
+   var x, y, z int 
+
+   x = 50
+   y = 100
+   z = x + y
+
+   fmt.Printf ("x = %d\n", x )
+   fmt.Printf ("y = %d\n", y)
+  fmt.Printf (" total z = %d\n", z )
+
+}
+
+OUTPUT:-
+
+x = 10
+y = 20
+total z = 30
+
+
+2)package main
+
+import "fmt"
+ 
+var mul int
+ 
+func main() {
+  
+   var a, b int
+
+   a = 20
+   b = 20
+   mul = a * b
+
+fmt.Printf("value of a = %d\n", a)
+fmt.Printf("value of b = %d\n", b) 
+fmt.Printf("multiplication r = %d\n", mul)
+}
+
+OUTPUT:-
+
+value of a = 10
+value of b = 20
+multiplication r = 200
+
+
+3)package main
+
+import "fmt"
+ 
+var a int = 20
+ 
+func main() {
+   
+   var a int = 10
+ 
+   fmt.Printf ("value of a = %d\n",  a)
+}
+
+OUTPUT:-
+
+value of a = 10
+
+
+4)package main
+
+import "fmt"
+ 
+var g int = 20
+ 
+func main() {
+   
+   var x int = 10
+ 
+   fmt.Printf ("value of x = %d\n",  x)
+}
+
+OUTPUT:-
+
+value of x = 10
+
+
+
+5)package main  
+  
+import "fmt"
+   
+
+func main() { 
+ 
+ var x, y int = 100, 200 
+   
+
+fmt.Printf("The value of x is : %d\n", x)  
+   
+fmt.Printf("The value of  y is : %d\n",  y)  
+}
+
+OUTPUT:-
+
+The value of x is : 100
+The value of  y is : 200
+
+
+
