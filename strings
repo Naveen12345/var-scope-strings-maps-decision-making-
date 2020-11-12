@@ -1,0 +1,130 @@
+1)package main
+import "fmt"
+func main() {
+var wish = "hai naveen"
+fmt.Printf(wish)
+}
+
+OUTPUT:-
+
+hai naveen
+
+
+2)package main
+
+import "fmt"
+
+func main() {
+   var wish =  "Hai naveen\n"
+   fmt.Printf(wish)
+   fmt.Printf("String Length is: ")
+   fmt.Println(len(wish))  
+}
+
+OUTPUT:-
+
+Hai naveen
+String Length is: 11
+
+
+3)package main
+
+import ("fmt" "math" )"fmt" "strings")
+
+func main() {
+   wish :=  []string{"naveen","jalli"}   
+   fmt.Println(strings.Join(wish, " "))
+}
+
+OUTPUT:-
+
+naveen jalli
+
+
+4)package main
+
+import ("fmt" "strings")
+
+func main() {
+	fmt.Println(strings.EqualFold("Go", "go"))
+}
+
+OUTPUT:-
+
+true
+
+
+5)package main
+
+import ("fmt" "strings")
+
+func main() {
+	fmt.Printf("Fields are: %q", strings.Fields("  kloud one  learner   "))
+}
+
+OUTPUT:-
+
+Fields are: ["kloud" "one" "learner"]
+
+
+
+6)package main
+import ("fmt"	"strings")
+
+func main() {
+	fmt.Println(strings.IndexAny("naveen", "nan"))
+	fmt.Println(strings.IndexAny("jalli", ""))
+}
+
+OUTPUT:-
+
+0
+-1
+
+
+7)package main
+
+import (
+	"fmt"
+	"strings"
+)
+
+func main() {
+	s := []string{"kloud", "one", "learner"}
+	fmt.Println(strings.Join(s, ", "))
+}
+
+kloud, one, learner
+
+Program exited.
+
+
+8)package main
+
+import (
+	"fmt"
+	"strings"
+)
+
+func main() {
+	fmt.Println("ba" + strings.Repeat("na", 2))
+}
+
+banana
+
+Program exited.
+
+9)package main
+
+import ("fmt" "strings")
+
+func main() {
+	fmt.Println(strings.Replace("naveen naveen naveen", "on", "one", 2))
+	fmt.Println(strings.Replace("one one one", "one", "navy", -1))
+}
+
+
+OUTPUT:-
+
+naveen naveen naveen
+navy navy navy
