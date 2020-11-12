@@ -1,0 +1,128 @@
+1)package main
+ 
+import "fmt"
+ 
+var a = map[string]int{"Kloud": 0, "One": 1}
+ 
+func main() {
+	fmt.Println(a)
+}
+
+OUTPUT:-
+
+map[Kloud:0 One:1]
+
+
+
+2)package main
+ 
+import "fmt"
+ 
+func main() {
+	var nav = map[string]int{}
+	fmt.Println(nav)        
+	fmt.Printf("%T\n", nav) 
+}
+
+OUTPUT:-
+
+map[]
+map[string]int
+
+
+3)package main
+ 
+import "fmt"
+ 
+func main() {
+	var employee = make(map[string]int)
+	employee["Kloud"] = 10
+	employee["One"] = 20
+	fmt.Println(employee)
+ 
+}
+
+OUTPUT:-
+
+map[Kloud:10 One:20]
+
+
+
+
+
+4)package main
+ 
+import "fmt"
+ 
+func main() {
+	var cust = make(map[string]int)
+	cust["Kloudone"] = 20
+	
+ 
+	
+	cust1 := make(map[string]int)
+ 
+	fmt.Println(len(cust))     
+	fmt.Println(len(cust1)) 
+}
+
+OUTPUT:-
+
+1
+0
+
+
+
+5)package main
+ 
+import "fmt"
+ 
+func main() {
+	var kloud = map[string]int{"naveen": 2, "jalli": 4}
+ 
+	fmt.Println(kloud["one"])
+}
+
+OUTPUT:-
+
+0
+
+
+
+6)package main
+ 
+import "fmt"
+ 
+func main() {
+	var cust = map[string]int{"sudha": 2, "tanuja": 4}
+	fmt.Println(cust) 
+ 
+	cust["navy"] = 4
+	cust["jalli"] = 40
+ 
+	fmt.Println(cust)
+}
+map[sudha:2 tanuja:10]
+map[sudha:2 jalli:40 navy:4 ravi:4]
+
+
+
+7)package main
+ 
+import "fmt"
+ 
+func main() {
+	var employee = map[string]int{"naveen": 10, "jalli": 20}
+	fmt.Println(employee) 
+ 
+	employee["naveen"] = 50 
+	fmt.Println(cust)
+}
+
+OUTPUT:-
+
+map[naveen:20 jalli:10]
+map[naveen:20 jalli:50]
+
+
+
